@@ -1,0 +1,18 @@
+; ----------------------------------------------------------------------------------------
+; # MuServer 0.96.40 [97d]
+; # Version: 1.0.0.1
+; # Edition: DELUXE
+; # Powered by: Network - Ultimate teaM
+; ----------------------------------------------------------------------------------------
+
+0 {
+; ----------------------------------------------------------------------------------------
+; # IP,PORT		=> Endereço IP e porta onde se encontra o SQL Server
+; # Username	=> Usuário para conexão com SQL Server
+; # Password	=> Senha para conexão com SQL Server
+; # Database	=> Banco de dados que irá se conectar
+; ----------------------------------------------------------------------------------------
+; # IP,PORT | Username | Password | Database
+; ----------------------------------------------------------------------------------------
+	"127.0.0.1,2586"	"sa"	"123456"	"MuOnline"
+}

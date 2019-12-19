@@ -1,0 +1,191 @@
+; ----------------------------------------------------------------------------------------
+; # MuServer 0.96.40 [97d]
+; # Version: 1.0.0.1
+; # Edition: DELUXE
+; # Powered by: Network - Ultimate teaM
+; ----------------------------------------------------------------------------------------
+
+
+0 {
+; ----------------------------------------------------------------------------------------
+; # Selecionar VIP de uma determinada conta
+; ----------------------------------------------------------------------------------------
+	"SELECT vip FROM MEMB_INFO WHERE memb___id = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Selecionar personagens de uma determinada conta
+; ----------------------------------------------------------------------------------------
+	"SELECT GameID1, GameID2, GameID3, GameID4, GameID5 FROM AccountCharacter WHERE Id = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Selecionar resets de um determinado personagem
+; ----------------------------------------------------------------------------------------
+	"SELECT Reset FROM Character WHERE Name = '%s'"
+}
+
+1 {
+; ----------------------------------------------------------------------------------------
+; # Contabilizar mortes de personagens heróis
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET hdia = hdia + %u, hsemana = hsemana + %u, hmes = hmes + %u, htotal = htotal + %u WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar mortes de personagens assassinos
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET pdia = pdia + %u, psemana = psemana + %u, pmes = pmes + %u, ptotal = ptotal + %u WHERE Name = '%s'"
+}
+
+2 {
+; ----------------------------------------------------------------------------------------
+; # Executar procedimento de alteração de baús
+; ----------------------------------------------------------------------------------------
+	"EXEC NETWORK_WAREHOUSE '%s', %d"
+; ----------------------------------------------------------------------------------------
+; # Selecionar resultado do procedimento de alteração de baús
+; ----------------------------------------------------------------------------------------
+	"SELECT ErrorCode FROM warehouse WHERE AccountID = '%s'"
+}
+
+3 {
+; ----------------------------------------------------------------------------------------
+; # Selecionar tempo para delay de alteração de nicks
+; ----------------------------------------------------------------------------------------
+	"SELECT AlterNick FROM Character WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Verificar se existe algum personagem com um determinado nick
+; ----------------------------------------------------------------------------------------
+	"SELECT count(*) FROM Character WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Atualiza a tabela AccountCharacter com os dados do novo nick
+; ----------------------------------------------------------------------------------------
+	"UPDATE AccountCharacter SET %s = '%s' WHERE Id = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Atualiza a tabela Character com os dados do novo nick
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET Name = '%s', AlterNick = '4' WHERE Name = '%s' AND AccountID = '%s'"
+}
+
+4 {
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de resets de um determinado personagem. (FREE)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 1 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de resets de um determinado personagem. (VIP 1)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 2 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de resets de um determinado personagem. (VIP 2)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 3 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de resets de um determinado personagem. (VIP 3)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 4 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de resets de um determinado personagem. (VIP 4)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 5 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de resets de um determinado personagem. (VIP 5)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 10 WHERE Name = '%s'"
+}
+
+5 {
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de masterresets de um determinado personagem. (FREE)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 1 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de masterresets de um determinado personagem. (VIP 1)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets= resets + 2 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de masterresets de um determinado personagem. (VIP 2)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 3 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de masterresets de um determinado personagem. (VIP 3)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 4 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de masterresets de um determinado personagem. (VIP 4)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 5 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Contabilizar quantidade de masterresets de um determinado personagem. (VIP 5)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = resets + 10 WHERE Name = '%s'"
+
+; ----------------------------------------------------------------------------------------
+; # Adicionar prêmio ao master resetar. (FREE)
+; ----------------------------------------------------------------------------------------
+	"UPDATE DT_SHOP_CREDITS SET credits = credits + 2 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Adicionar prêmio ao master resetar. (VIP 1)
+; ----------------------------------------------------------------------------------------
+	"UPDATE DT_SHOP_CREDITS SET credits = credits + 4 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Adicionar prêmio ao master resetar. (VIP 2)
+; ----------------------------------------------------------------------------------------
+	"UPDATE DT_SHOP_CREDITS SET credits = credits + 6 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Adicionar prêmio ao master resetar. (VIP 3)
+; ----------------------------------------------------------------------------------------
+	"UPDATE DT_SHOP_CREDITS SET credits = credits + 8 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Adicionar prêmio ao master resetar. (VIP 4)
+; ----------------------------------------------------------------------------------------
+	"UPDATE DT_SHOP_CREDITS SET credits = credits + 10 WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Adicionar prêmio ao master resetar. (VIP 5)
+; ----------------------------------------------------------------------------------------
+	"UPDATE DT_SHOP_CREDITS SET credits = credits + 20 WHERE Name = '%s'"
+
+; ----------------------------------------------------------------------------------------
+; # Zerar resets após master reset (Caso esteja ativado no Command.ut)
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET resets = 0 WHERE Name = '%s'"
+}
+
+6 {
+; ----------------------------------------------------------------------------------------
+; Adicionar matrimônio.
+; ----------------------------------------------------------------------------------------
+	"INSERT INTO NETWORK_MARRIES (He, She, Date) VALUES ('%s', '%s', getdate())
+; ----------------------------------------------------------------------------------------
+; Excluir matrimônio.
+; ----------------------------------------------------------------------------------------
+	"DELETE FROM NETWORK_MARRIES WHERE He = '%s' AND She = '%s'
+; ----------------------------------------------------------------------------------------
+; Verificar matrimônio
+; ----------------------------------------------------------------------------------------
+	"SELECT He, She FROM NETWORK_MARRIES WHERE He = '%s' OR She = '%s'"
+}
+
+7 {
+; ----------------------------------------------------------------------------------------
+; Verificar a existência de um determinado personagem.
+; ----------------------------------------------------------------------------------------
+	"SELECT count(*) FROM Character WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Verificar a existência de uma determinada conta.
+; ----------------------------------------------------------------------------------------
+	"SELECT count(*) FROM MEMB_INFO WHERE memb___id = '%s'"
+
+; ----------------------------------------------------------------------------------------
+; # Bloqueia um determinado personagem por X dias.
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET CtlCode = 1, dias = dias + %d WHERE Name = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Desbloqueia um determinado personagem.
+; ----------------------------------------------------------------------------------------
+	"UPDATE Character SET CtlCode = 0, dias = 0 WHERE Name = '%s'"
+
+; ----------------------------------------------------------------------------------------
+; # Bloqueia uma determinada conta por X dias.
+; ----------------------------------------------------------------------------------------
+	"UPDATE MEMB_INFO SET bloc_code = 1, dias = dias + %d WHERE memb___id = '%s'"
+; ----------------------------------------------------------------------------------------
+; # Desbloqueia uma determinada conta.
+; ----------------------------------------------------------------------------------------
+	"UPDATE MEMB_INFO SET bloc_code = 0, dias = 0 WHERE memb___id = '%s'"
+}

@@ -1,0 +1,36 @@
+; ----------------------------------------------------------------------------------------
+; # Ultimate Plugin - 97d
+; # Version: 1.0.0.0 
+; # Powered by Network - Ultimate TeaM
+; # Contato:
+; # -- MSN: network@utdevelopment.com
+; # -- SKYPE: network.ut
+; ----------------------------------------------------------------------------------------
+
+0 {
+; ----------------------------------------------------------------------------------------
+; # String	=> Sintax do comando master reset
+; ----------------------------------------------------------------------------------------
+; # String
+; ----------------------------------------------------------------------------------------
+	"masterreset"
+; ----------------------------------------------------------------------------------------
+; # Use			=> Ativar comando de master reset? (0 = DESATIVADO, 1 = ATIVADO)
+; # Level		=> Level para master resetar
+; # NextLevel	=> Level após master resetar
+; # Price		=> Preço cobrado por master resetar
+; # Status		=> Status necessário para master resetar (Força, Agilidade, Vitalidade e Energia)
+; # NextStatus	=> Status após master resetar (Força, Agilidade, Vitalidade e Energia)
+; # ZeroPoints	=> Zerar pontos? (Level Up Points) (0 = DESATIVADO, 1 = ATIVADO)
+; # ZeroResets	=> Zerar resets? (0 = DESATIVADO, 1 = ATIVADO)
+; # Delay		=> Tempo de espera para usar o comando novamente
+; ----------------------------------------------------------------------------------------
+; # Use | Level | NextLevel | Price | Status | NextStatus | ZeroPoints | ZeroResets | Delay
+; ----------------------------------------------------------------------------------------
+	1	100	1	100	32767	25	1	0	60	// FREE
+	1	80	6	100	32500	30	1	0	50	// VIP 1
+	1	70	7	100	32200	50	1	0	40	// VIP 2
+	1	60	8	100	32000	80	1	0	30	// VIP 3
+	1	50	9	100	31000	100	1	0	20	// VIP 4
+	1	1	10	100	30000	200	1	0	10	// VIP 5
+}

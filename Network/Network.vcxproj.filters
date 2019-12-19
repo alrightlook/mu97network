@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Network\Library">
+      <UniqueIdentifier>{28dba14a-1bd0-4c54-8b93-24f4fd82c3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Project">
+      <UniqueIdentifier>{8fd824cd-f77d-44c7-96e5-08281d9fd3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security">
+      <UniqueIdentifier>{06bf8bb6-0dbb-4c06-8fde-8fbc2dc9b9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Function">
+      <UniqueIdentifier>{9db2a88b-2465-4108-8a57-1dda1b0fef66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Flood">
+      <UniqueIdentifier>{9f04c8d8-d07a-4921-9d47-bb72bc69f627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Setting">
+      <UniqueIdentifier>{65ea0f28-0377-42ab-b0dd-2753e4c4bd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Library\Struct">
+      <UniqueIdentifier>{5182c530-04a3-4cb1-bd23-bed27762d5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Disconnect">
+      <UniqueIdentifier>{d84d5c46-7dd7-4ddd-9196-d9145e178aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Command">
+      <UniqueIdentifier>{0fa76740-2f5c-41da-bbb5-3eace228ad33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Manager">
+      <UniqueIdentifier>{5eb479fa-000d-4af7-bb6f-67faf719b60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Message">
+      <UniqueIdentifier>{db86e60c-bb22-465d-b2c6-269d3f8da3fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Query">
+      <UniqueIdentifier>{406f3571-4a68-47f5-9763-bf980310676e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Connect">
+      <UniqueIdentifier>{ded78310-4105-4eff-a089-36968b9c1945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Library\Tokenizer">
+      <UniqueIdentifier>{28dcf0b0-d655-45cd-b2f0-4607c1256912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Library\Tokenizer\TokenizerField">
+      <UniqueIdentifier>{df1f5be3-fcea-4c4a-8894-5924304f4b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Library\Tokenizer\TokenizerRow">
+      <UniqueIdentifier>{e0db6d71-471c-4567-a9fd-a7b63d7bc439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Library\Tokenizer\TokenizerSection">
+      <UniqueIdentifier>{813ba573-2de8-43d9-93bd-20b651b3ba3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{b9ecc709-d510-4dec-afe4-d973f8bc6a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Network">
+      <UniqueIdentifier>{16ac6d6a-4f5d-4118-8de9-c9ef3a0055c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Network\Block">
+      <UniqueIdentifier>{1fa49993-4a7c-48ca-b831-e78ce6c25c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Command\Reset">
+      <UniqueIdentifier>{28d7799d-90ca-4b95-bcc1-2da5ecfa7d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Command\Master">
+      <UniqueIdentifier>{f6258d55-19a0-4771-aa28-2f4d7741ad1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Trade">
+      <UniqueIdentifier>{8e666a13-1774-4ad5-872c-cee140477649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Skill">
+      <UniqueIdentifier>{7beef039-10db-4ffe-a833-0995649ffb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Ring">
+      <UniqueIdentifier>{dcf0de51-4649-4274-9fa3-17f724440612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Shadow">
+      <UniqueIdentifier>{a811210a-d1ff-4c9a-aaa1-d223369d223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Security\Create">
+      <UniqueIdentifier>{c33fa630-9176-4787-b524-7f38c598fc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Library\Struct\User">
+      <UniqueIdentifier>{4ac148c4-af5f-415d-bea7-a70c51994404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Network\Calcule">
+      <UniqueIdentifier>{b8c523bd-e2c3-4bd2-9066-909d28b44477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Setting\Map">
+      <UniqueIdentifier>{62baee05-1ddb-4c1a-9e3e-c20eb8ddc255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Command\Marry">
+      <UniqueIdentifier>{ff2e22c1-79ae-4d72-99f4-6313cd246beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Setting\Calcule">
+      <UniqueIdentifier>{2e9d03c0-8191-46f8-9a19-69abff4070af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Event">
+      <UniqueIdentifier>{d0aa9f65-8450-4e5a-8fe3-00e31007605f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Event\HappyHour">
+      <UniqueIdentifier>{83d9c729-88eb-4d9d-8bc9-21694c6765c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Setting\Drop">
+      <UniqueIdentifier>{79f8597a-44b6-449f-8540-a248071f29b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Network\Drop">
+      <UniqueIdentifier>{511a158e-698c-4a95-9179-ddcb2ced99c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Project.cpp">
+      <Filter>Network\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Security.cpp">
+      <Filter>Network\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Network\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Flood.cpp">
+      <Filter>Network\Security\Flood</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Network\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Network\Library\Struct\User</Filter>
+    </ClCompile>
+    <ClCompile Include="Disconnect.cpp">
+      <Filter>Network\Security\Disconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Network\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Network\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Network\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Network\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="Connect.cpp">
+      <Filter>Network\Connect</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Network\Library\Tokenizer</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenizerField.cpp">
+      <Filter>Network\Library\Tokenizer\TokenizerField</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenizerRow.cpp">
+      <Filter>Network\Library\Tokenizer\TokenizerRow</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenizerSection.cpp">
+      <Filter>Network\Library\Tokenizer\TokenizerSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Reset.cpp">
+      <Filter>Network\Command\Reset</Filter>
+    </ClCompile>
+    <ClCompile Include="Master.cpp">
+      <Filter>Network\Command\Master</Filter>
+    </ClCompile>
+    <ClCompile Include="Trade.cpp">
+      <Filter>Network\Security\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Network\Security\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>Network\Security\Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Network\Security\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Create.cpp">
+      <Filter>Network\Security\Create</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Network\Setting\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Marry.cpp">
+      <Filter>Network\Command\Marry</Filter>
+    </ClCompile>
+    <ClCompile Include="Calcule.cpp">
+      <Filter>Network\Setting\Calcule</Filter>
+    </ClCompile>
+    <ClCompile Include="HappyHour.cpp">
+      <Filter>Network\Event\HappyHour</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Network\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Drop.cpp">
+      <Filter>Network\Setting\Drop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library.h">
+      <Filter>Network\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Target.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Network\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Security.h">
+      <Filter>Network\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Network\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Flood.h">
+      <Filter>Network\Security\Flood</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting.h">
+      <Filter>Network\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Network\Library\Struct\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Disconnect.h">
+      <Filter>Network\Security\Disconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Network\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Network\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Network\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Network\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="Connect.h">
+      <Filter>Network\Connect</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Network\Library\Tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenizerField.h">
+      <Filter>Network\Library\Tokenizer\TokenizerField</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenizerRow.h">
+      <Filter>Network\Library\Tokenizer\TokenizerRow</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenizerSection.h">
+      <Filter>Network\Library\Tokenizer\TokenizerSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Reset.h">
+      <Filter>Network\Command\Reset</Filter>
+    </ClInclude>
+    <ClInclude Include="Master.h">
+      <Filter>Network\Command\Master</Filter>
+    </ClInclude>
+    <ClInclude Include="Trade.h">
+      <Filter>Network\Security\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Network\Security\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>Network\Security\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Network\Security\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Create.h">
+      <Filter>Network\Security\Create</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.ut">
+      <Filter>Files\Network\Calcule</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Network\Setting\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Marry.h">
+      <Filter>Network\Command\Marry</Filter>
+    </ClInclude>
+    <ClInclude Include="Calcule.h">
+      <Filter>Network\Setting\Calcule</Filter>
+    </ClInclude>
+    <ClInclude Include="HappyHour.h">
+      <Filter>Network\Event\HappyHour</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Network\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Drop.h">
+      <Filter>Network\Setting\Drop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IpAddress.txt">
+      <Filter>Files\Network\Block</Filter>
+    </None>
+    <None Include="Command.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Setting.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Message.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Connect.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Query.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Reset.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Trade.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Notice.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Master.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Map.ut">
+      <Filter>Files\Network</Filter>
+    </None>
+    <None Include="Drop.ut">
+      <Filter>Files\Network\Drop</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+; ---------------------------------------------------------------------------------------------------
+; # MuServer 0.96.40 [97d]
+; # Version: 1.0.0.1
+; # Edition: FREE
+; # Powered by: Network - Ultimate teaM
+; ---------------------------------------------------------------------------------------------------
+
+; ---------------------------------------------------------------------------------------------------
+; # LEGENDAS
+; ---------------------------------------------------------------------------------------------------
+; # -- Atributos (pontos de cada personagem)
+; # Str			=> Strength (Força)
+; # Dex			=> Dexterity (Agilidade)
+; # Ene			=> Energy (Energia)
+; ---------------------------------------------------------------------------------------------------
+; # -- Divisores
+; # AtkMaxR(...) => Divisor do atributo (...) para gerar o dano máximo de ataque do personagem (com item da mão direita (?))
+; # AtkMinR(...) => Divisor do atributo (...) para gerar o dano mínimo de ataque do personagem (com item da mão direita (?))
+; # AtkMaxL(...) => Divisor do atributo (...) para gerar o dano máximo de ataque do personagem (com item da mão esquerda (?))
+; # AtkMinL(...) => Divisor do atributo (...) para gerar o dano mínimo de ataque do personagem (com item da mão esquerda (?))
+; # AtkSpeed	 => Divisor de agilidade para gerar a velocidade de ataque do personagem
+; # MgcSpeed	 => Divisor de agilidade para gerar a velocidade de ataque mágico do personagem
+; # SuccessBlock => Divisor de agilidade para gerar taxa de sucesso na defesa do personagem
+; # Defense		 => Divisor de agilidade para gerar defesa do personagem
+; ---------------------------------------------------------------------------------------------------
+
+0 {
+; ---------------------------------------------------------------------------------------------------
+; # DARK WIZARD - SOUL MASTER
+; ---------------------------------------------------------------------------------------------------
+; # AtkMaxR(Str) | AtkMinR(Str) | AtkMinL(Str) | AtkMaxL(Str) | AtkSpeed | MgcSpeed | SuccessBlock | Defense
+; ---------------------------------------------------------------------------------------------------
+	8	4	8	4	20	10	3	4
+}
+
+1 {
+; ---------------------------------------------------------------------------------------------------
+; # DARK KNIGHT - BLADE KNIGHT
+; ---------------------------------------------------------------------------------------------------
+; # AtkMaxR(Str) | AtkMinR(Str) | AtkMinL(Str) | AtkMaxL(Str) | AtkSpeed | MgcSpeed | SuccessBlock | Defense
+; ---------------------------------------------------------------------------------------------------
+	6	4	6	4	15	20	3	3
+}
+
+2 {
+; ---------------------------------------------------------------------------------------------------
+; # FAIRY ELF - MUSE ELF
+; ---------------------------------------------------------------------------------------------------
+; # AtkMaxR(Str) | AtkMinR(Str) | AtkMinL(Str) | AtkMaxL(Str) | AtkMaxR(Dex) | AtkMinR(Dex) | AtkMinL(Dex) | AtkMaxL(Dex) | AtkSpeed | MgcSpeed | SuccessBlock | Defense
+; ---------------------------------------------------------------------------------------------------
+	7	4	7	4	14	8	14	8	50	50	4	10
+}
+
+3 {
+; ---------------------------------------------------------------------------------------------------
+; # MAGIC GLADIATOR
+; ---------------------------------------------------------------------------------------------------
+; # AtkMaxR(Str) | AtkMinR(Str) | AtkMinL(Str) | AtkMaxL(Str) | AtkMaxR(Ene) | AtkMinR(Ene) | AtkMinL(Ene) | AtkMaxL(Ene) | AtkSpeed | MgcSpeed | SuccessBlock | Defense
+; ---------------------------------------------------------------------------------------------------
+	6	4	6	4	12	8	12	8	15	20	3	4
+}

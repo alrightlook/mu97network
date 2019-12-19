@@ -1,0 +1,289 @@
+; ----------------------------------------------------------------------------------------
+; # MuServer 0.96.40 [97d]
+; # Version: 1.0.0.1
+; # Edition: DELUXE
+; # Powered by: Network - Ultimate teaM
+; ----------------------------------------------------------------------------------------
+
+0 {
+; ----------------------------------------------------------------------------------------
+; # Formato das mensagens de auto-announce e chat GM
+; ----------------------------------------------------------------------------------------
+	"%s online!"
+	"%s: %s"
+}
+
+1 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens de boas-vindas
+; ----------------------------------------------------------------------------------------
+	"Bem-vindo(a)! Você é um jogador FREE."
+	"Bem-vindo(a)! Você é um jogador VIP 1."
+	"Bem-vindo(a)! Você é um jogador VIP 2."
+	"Bem-vindo(a)! Você é um jogador VIP 3."
+	"Bem-vindo(a)! Você é um jogador VIP 4."
+	"Bem-vindo(a)! Você é um jogador VIP 5."
+}
+
+2 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens padrões (usado em todos comandos)
+; ----------------------------------------------------------------------------------------
+	"Você precisa ter mais %d %s"
+	"Você precisa esperar %d segundos"
+	"Você precisa ser solteiro(a)"
+}
+
+3 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /post
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /post <mensagem>"
+	"Post ativado"
+	"Post desativado"
+}
+
+4 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando & NPC StatusClear
+; ----------------------------------------------------------------------------------------
+	"Você não está Pk/Hero"
+	"Pk/Hero limpo com sucesso"
+}
+
+5 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /zen
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /zen <quantidade de zen>"
+	"Você já possui a quantidade máxima de zen"
+	"Você recebeu %d zen"
+}
+
+6 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /points
+; ----------------------------------------------------------------------------------------
+	"Força: %d"
+	"Agilidade: %d"
+	"Vitalidade: %d"
+	"Energia: %d"
+	"Pontos para distribuir: %d"
+}
+
+7 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /website
+; ----------------------------------------------------------------------------------------
+	"www.utdevelopment.com"
+}
+
+8 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /online
+; ----------------------------------------------------------------------------------------
+	"Jogadores online: %d"
+	"Membros da equipe online: %d"
+	"Total online: %d"
+}
+
+9 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /data
+; ----------------------------------------------------------------------------------------
+	"Não foi possível pegar as informações do sistema"
+	"Segunda-feira Terça-feira Quarta-feira Quinta-feira Sexta-feira Sábado Domingo"
+	"Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro"
+	"%s, %02d de %s de %04d"
+	"Horário: %02d:%02d %s
+}
+
+10 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /add
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /add <pontos>"
+	"Você não possui essa quantidade de pontos"
+	"Você não pode ultrapassar de 32767"
+	"Pontos adicionados com sucesso"
+	"Pontos adicionados, relogue para visualizar"
+}
+
+11 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /readd
+; ----------------------------------------------------------------------------------------
+	"Você não possui pontos suficientes para redistribuição"
+	"Pontos redistribuidos com sucesso!"
+}
+
+12 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando de seleções
+; ----------------------------------------------------------------------------------------
+	"Você foi desconectado"
+	"Entrando na área de seleção de personagens"
+	"Entrando na área de seleção de servidores"
+}
+
+13 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /bau
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /warehouse <id do bau>"
+	"Você não possui baú de número %d"
+	"Você já está utilizando o baú de número %d"
+	"Não foi possível alterar o baú"
+	"Feche o baú antes de usar o comando"
+	"Baú alterado com sucesso. Você está usando o baú de número %d"
+}
+
+14 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /evo
+; ----------------------------------------------------------------------------------------
+	"Você já está na última evolução de sua classe"
+	"Sua classe não possui evolução"
+	"Parabéns! Agora você é %s"
+}
+
+15 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /class
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /class <classe> | Classes: "
+	"DW = Dark Wizard / SM = Soul Master"
+	"DK = Dark Knight / BK = Blade Knight"
+	"FE = Fairy Elf / ME = Muse Elf"
+	"MG = Magic Gladiator"
+	"Desequipe seus itens"
+	"Parabéns, agora você é %s"
+}
+
+16 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /repair
+; ----------------------------------------------------------------------------------------
+	"Seu baú deve estar aberto"
+	"Itens do %s reparado com sucesso"
+}
+
+17 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /clear
+; ----------------------------------------------------------------------------------------
+	"Você deletará todos os itens que constam em seu personagem"
+	"Você deseja prosseguir? (Se sim, use /clear prosseguir)"
+	"Itens do %s deletados com sucesso"
+}
+
+18 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /name
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /name <novo nome>"
+	"Seu novo nick não pode contar mais que 10 digitos"
+	"Caracteres inválidos não são permitidos em seu nick"
+	"É necessário estar sem guild para alterar seu nick"
+	"Você deve aguardar %d horas para alterar seu nick novamente"
+	"Este nick já está sendo utilizado por outra pessoa"
+	"Não foi possível pegar informações de sua conta"
+	"Parabéns. Seu novo nick é: %s"
+}
+
+19 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens de moves
+; ----------------------------------------------------------------------------------------
+	"PKs não podem mover-se."
+	"Move exclusivo para GMs."
+}
+
+20 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando & NPC Reset
+; ----------------------------------------------------------------------------------------
+	"Resetado com sucesso"
+}
+
+21 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando & Npc Master Reset
+; ----------------------------------------------------------------------------------------
+	"Você precisa ter %d nos status para master resetar"
+	"Master Resetado com sucesso"
+}
+
+22 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do sistema de casamento
+; ----------------------------------------------------------------------------------------
+	"Erro de Sintaxe! Use: /casar <nome do personagem>"
+	"O personagem não existe ou está desconectado"
+	"O personagem já está casado(a)"
+	"O personagem já recebeu uma propósta de casamento"
+	"Você não pode enviar uma propósta longe do personagem"
+	"Você não pode se casar com um personagem do mesmo sexo"
+	"O personagem %s pediu sua mão em casamento"
+	"Você deseja aceitar? (Se sim, digite: /casar aceitar)"
+	"Pedido de casamento enviado"
+	"Você não pode aceitar o pedido de casamento longe do personagem"
+	"Não é possível prosseguir com o casamento, pois seu parceiro desconectou-se"
+	"%s e %s juntaram suas fronhas"
+	"Felicidades ao casal!"
+	"Agora, você está divorciado(a)"
+	"Você não está casado(a)"
+	"Você já está casado(a)"
+	"Teleportado(a) com sucesso"
+}
+
+23 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /reload
+; ----------------------------------------------------------------------------------------
+	"Configurações recarregadas."
+	"Shoppings recarregados."
+	"Monstros recarregados."
+	"Plugin recarregado."
+}
+
+24 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /block & /desblock
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /block <char> <dias>"
+	"Digite uma quantidade dias maior que 0"
+	"Personagem/Conta não encontrado(a)."
+	"%s foi %s"
+}
+
+25 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do comando /gmove
+; ----------------------------------------------------------------------------------------
+	"Erro de sintaxe! Use: /move<X> <char> <mapa> <x> <y>"
+	"Erro de sintaxe! Use: /move<X> <mapa> <x> <y>"
+	"Personagem não encontrado"
+	"Personagem movido com sucesso"
+	"Guild movida com sucesso"
+	"Todos usuários desse mapa foram movidos com sucesso"
+	"Todos usuários foram movidos com sucesso"
+}
+
+26 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens de Trade
+; ----------------------------------------------------------------------------------------
+	"Trade desativado neste mapa."
+	"Você não pode dar trade perto do baú."
+}
+
+27 {
+; ----------------------------------------------------------------------------------------
+; # Mensagens do evento Happy Hour
+; ----------------------------------------------------------------------------------------
+	"[Happy Hour] Começará em %d minutos."
+	"[Happy Hour] Encerrará em %d minutos."
+	"[Happy Hour] Iniciado."
+	"[Happy Hour] Finalizado."
+}

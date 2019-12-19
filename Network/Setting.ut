@@ -1,0 +1,113 @@
+; ----------------------------------------------------------------------------------------
+; # MuServer 0.96.40 [97d]
+; # Version: 1.0.0.1
+; # Edition: FREE
+; # Powered by: Network - Ultimate teaM
+; ----------------------------------------------------------------------------------------
+
+[Fix]
+Pk			= 1;		// Ativar correção para Pk Bug? (0 = DESATIVADO, 1 = ATIVADO)
+Potion			= 1;		// Ativar correção para Potion Bug? (0 = DESATIVADO, 1 = ATIVADO)
+PersonalID		= 1;		// Ativar correção para Party Zen Bug? (0 = DESATIVADO, 1 = ATIVADO)
+PartyZen		= 1;		// Ignorar checagem de Personal ID? (0 = DESATIVADO, 1 = ATIVADO)
+Webzen			= 1;		// Remover autoridade do nick WebZen? (0 = DESATIVADO, 1 = ATIVADO)
+AlreadyRunning		= 1;		// Permitir mais de um GameServer em uso? (0 = DESATIVADO, 1 = ATIVADO)
+NoStandBy		= 1;		// Ativar correção para Stand By DataServer? (0 = DESATIVADO, 1 = ATIVADO)
+SocketSerial		= 1;		// Ativar correção para erro de Socket Serial? (0 = DESATIVADO, 1 = ATIVADO)
+DestroyGIocp		= 1;		// Ativar correção para o uso da função DestroyGIocp? (0 = DESATIVADO, 1 = ATIVADO)
+InvalidSocket		= 1;		// Ativar correção para erro de INVALID_SOCKET? (0 = DESATIVADO, 1 = ATIVADO)
+ProtocolError		= 1;		// Ativar correção para Protocol Error? (0 = DESATIVADO, 1 = ATIVADO)
+HackReporting		= 1;		// Ativar correção para Hack Reporting [Client hack detected...]? (0 = DESATIVADO, 1 = ATIVADO)
+ErrorL2Index		= 1;		// Ativar correção para erro [error-L2 : Index(%d) ...]? (0 = DESATIVADO, 1 = ATIVADO)
+
+[Server]
+Type			= 0;		// Tipo de servidor (0 = LIVRE, 1 = POR RESETS, 2 = POR VIP)
+Quantity		= 0;		// Quantidade minima de (resets caso Server = 1, plano vip caso Server = 2)  para entrar no servidor
+
+[Game]
+CheckSum		= 0; 		// Habilitar verificação Checksum? (0 = DESATIVADO, 1 = ATIVADO)
+PortUdp			= 60006; 	// Porta UDP
+NonPk			= 0;		// Servidor com PvP (0 = ATIVADO, 1 = DESATIVADO)
+AutoAnnounce		= 1;		// Auto-anunciar GMs? (0 = DESATIVADO, 1 = ATIVADO)
+WelcomeMessage		= 1;		// Mensagem de boas-vindas? (0 = DESATIVADO, 1 = ATIVADO)
+
+[Max]
+Status			= 0;		// Suporte a status 65k? (0 = DESATIVADO, 1 = ATIVADO)
+Level			= 1000;		// Level máximo que um jogador pode atingir
+Player			= 250;		// Máximo de jogadores que o servidor pode atingir
+ZenInventory		= 2100000000;	// Máximo de zen no inventário
+ZenWarehouse		= 2100000000;	// Máximo de zen no baú
+
+[LevelUpPoint]
+All			= 5;		// Pontos ao passar de nível (BK / ELF / SM)
+MG			= 7;		// Pontos ao passar de nível (MG)
+
+[Party]
+LevelDifference		= 130;		// Level máximo de diferença permitido para formar party 
+RateExp2Players		= 200;		// Experiência bônus (2 jogadores em party)
+RateExp3Players		= 230;		// Experiência bônus (3 jogadores em party)
+RateExp4Players		= 260;		// Experiência bônus (4 jogadores em party)
+RateExp5Players		= 290;		// Experiência bônus (5 jogadores em party)
+
+[BloodCastle]
+Index			= 15;		// Index do item
+Group			= 12;		// Grupo do item
+Excellent		= 0;		// Item excelente
+Option			= 0;		// Item com option
+Luck			= 0;		// Item com luck
+Skill			= 0;		// Item com skill
+Level			= 0;		// Level do item
+
+[ChaosMachine]
+MixItem10		= 100;		// Taxa de sucesso na mixagem de itens +10
+MixItem11		= 100;		// Taxa de sucesso na mixagem de itens +11
+MixWingMin		= 100;		// Taxa minima de sucesso na mixagem de asas level 2
+MixWingMax		= 100;		// Taxa máxima de sucesso na mixagem de asas level 2
+
+[JewelRate]
+Life			= 0;		// Taxa de sucesso da Jewel of Life
+Soul			= 0;		// Taxa de sucesso da Jewel of Soul
+SoulLuck		= 100;		// Taxa de sucesso da Jewel of Soul em itens com luck
+
+[JewelPrice]
+Bless			= 9000000;	// Preço da Jewel of Bless
+Soul			= 6000000;	// Preço da Jewel of Soul
+Chaos			= 810000;	// Preço da Jewel of Chaos
+Life			= 45000000;	// Preço da Jewel of Life
+Creation		= 36000000;	// Preço da Jewel of Creation
+Dinorant		= 960000;	// Preço do Pet Dinorant
+Fruit			= 3000000;	// Preço da Fruit
+BlueFeather		= 180000;	// Preço da Blue Feather
+
+[PotionRate]
+Apple			= 10;		// Taxa de regeneração de vida com o item Apple
+SmallHP			= 20;		// Taxa de regeneração de vida com o item Small HP
+MediumHP		= 30;		// Taxa de regeneração de vida com o item Medium HP
+LargeHP			= 40;		// Taxa de regeneração de vida com o item Large HP
+SmallMP			= 20;		// Taxa de regeneração de mana com o item Small MP
+MediumMP		= 30;		// Taxa de regeneração de mana com o item Medium MP
+LargeMP			= 40;		// Taxa de regeneração de mana com o item Large MP
+	
+[RingTransform]
+BudgeDragon		= 2;		// Id do monstro para transformação do anel de Budge Dragon
+Giant			= 7;		// Id do monstro para transformação do anel de Giant
+SkeletonWarrior		= 14;		// Id do monstro para transformação do anel de Skeleton Warrior
+PoisonBull		= 8;		// Id do monstro para transformação do anel de Poison Bull
+ThunderLich		= 9;		// Id do monstro para transformação do anel de Thunder Lich
+DeathCow		= 41;		// Id do monstro para transformação do anel de Death Cow
+
+[OrbSummon]
+Goblin			= 26;		// Id do monstro para summonar na skill summon Goblin
+StoneGolem		= 32;		// Id do monstro para summonar na skill summon Stone Golen
+Assassin		= 21;		// Id do monstro para summonar na skill summon Assassin
+EliteYeti		= 20;		// Id do monstro para summonar na skill summon Elite Yeti
+DarkKnight		= 10;		// Id do monstro para summonar na skill summon Dark Knight
+Bali			= 150;		// Id do monstro para summonar na skill summon Bali
+Soldier			= 151;		// Id do monstro para summonar na skill summon Soldier
+
+[ManaShield]
+PercentStart		= 30;		// Porcentagem de defesa ao iniciar skill
+Duration		= 30;		// Duração da proteção
+AdditionalAgility	= 6800;		// Pontos requeridos em agilidade para adição de 1% no shield
+AdditionalEnergy	= 6800;		// Pontos requeridos em energia para adição de 1% no shield
+AdditionalEnergyEx	= 6800;		// Pontos requeridos em energia para adição de 1% no shield (?)

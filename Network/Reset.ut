@@ -1,0 +1,178 @@
+; ----------------------------------------------------------------------------------------
+; # Ultimate Plugin - 97d
+; # Version: 1.0.0.0 
+; # Powered by Network - Ultimate TeaM
+; # Contato:
+; # -- MSN: network@utdevelopment.com
+; # -- SKYPE: network.ut
+; ----------------------------------------------------------------------------------------
+
+0 {
+; ----------------------------------------------------------------------------------------
+; # String	=> Sintax do comando reset
+; # Use		=> Pode utilizar o comando de reset? (0 = DESATIVADO, 1 = ATIVADO)
+; # NPC		=> Pode utilizar o NPC de reset? (0 = DESATIVADO, 1 = ATIVADO)
+; # Type	=> Tipo do sistema de reset (0 = ACUMULATIVO, 1 = PONTUATIVO, 2 = PONTUATIVO [TABELADO])
+; # Delay	=> Tempo de espera para usar o comando/NPC novamente
+; ----------------------------------------------------------------------------------------
+; # String
+; ----------------------------------------------------------------------------------------
+	"reset"
+; ----------------------------------------------------------------------------------------
+; # Use | NPC | Type | Delay
+; ----------------------------------------------------------------------------------------	
+	0	0	0	60	// FREE
+	1	0	0	50	// VIP 1
+	1	0	0	40	// VIP 2
+	1	1	0	30	// VIP 3
+	1	1	0	20	// VIP 4
+	1	1	0	10	// VIP 5
+}
+
+1 {
+; ----------------------------------------------------------------------------------------
+; # RESET ACUMULATIVO
+; ----------------------------------------------------------------------------------------
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; ----------------------------------------------------------------------------------------
+; # Level | NextLevel |  Price  |  Points
+; ----------------------------------------------------------------------------------------
+	1000	1	2000	250	// FREE
+	800	1	2000	250	// VIP 1
+	750	1	2000	255	// VIP 2
+	600	1	2000	250	// VIP 3
+	450	1	2000	250	// VIP 4
+	300	1	2000	250	// VIP 5
+}
+
+2 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO
+; ----------------------------------------------------------------------------------------
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	1000	1	2000	250		25	1	// FREE
+	800	1	2000	250		25	1	// VIP 1
+	600	1	2000	250		25	1	// VIP 2
+	500	1	2000	250		25	1	// VIP 3
+	300	1	2000	250		25	1	// VIP 4
+	100	1	2000	250		25	1	// VIP 5
+}
+
+3 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO [TABELADO] - USUARIO FREE - MAX 10 LINHAS
+; ----------------------------------------------------------------------------------------
+; # Initial		=> Reset inicial 
+; # Final		=> Reset final
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Initial | Final | Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	0	10	100	1	200	500	50	1
+}
+
+4 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO [TABELADO] - USUARIO VIP 1 - MAX 10 LINHAS
+; ----------------------------------------------------------------------------------------
+; # Initial		=> Reset inicial 
+; # Final		=> Reset final
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Initial | Final | Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	0	10	100	1	200	500	50	1
+}
+
+5 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO [TABELADO] - USUARIO VIP 2 - MAX 10 LINHAS
+; ----------------------------------------------------------------------------------------
+; # Initial		=> Reset inicial 
+; # Final		=> Reset final
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Initial | Final | Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	0	10	100	1	200	500	50	1
+}
+
+6 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO [TABELADO] - USUARIO VIP 3 - MAX 10 LINHAS
+; ----------------------------------------------------------------------------------------
+; # Initial		=> Reset inicial 
+; # Final		=> Reset final
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Initial | Final | Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	0	10	100	1	200	500	50	1
+}
+
+7 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO [TABELADO] - USUARIO VIP 4 - MAX 10 LINHAS
+; ----------------------------------------------------------------------------------------
+; # Initial		=> Reset inicial 
+; # Final		=> Reset final
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Initial | Final | Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	0	10	100	1	200	500	50	1
+}
+
+8 {
+; ----------------------------------------------------------------------------------------
+; # RESET PONTUATIVO [TABELADO] - USUARIO VIP 5 - MAX 10 LINHAS
+; ----------------------------------------------------------------------------------------
+; # Initial		=> Reset inicial 
+; # Final		=> Reset final
+; # Level		=> Level para resetar
+; # NextLevel	=> Level após resetar
+; # Price		=> Preço cobrado por resetar
+; # Points		=> Pontos por reset (Level Up Points)
+; # Status		=> Status após resetar (Força, Agilidade, Vitalidade e Energia)
+; # Quantity	=> Quantidade de resets ganhos ao resetar (Para calcular os pontos por reset)
+; ----------------------------------------------------------------------------------------
+; # Initial | Final | Level | NextLevel |  Price  |  Points  |  Status  | Quantity
+; ----------------------------------------------------------------------------------------
+	0	10	100	1	200	500	50	1
+}
